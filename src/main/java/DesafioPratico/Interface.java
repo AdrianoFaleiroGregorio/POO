@@ -1,7 +1,9 @@
+package DesafioPratico;
+
 import java.util.Scanner;
 
 public class Interface {
-    private String tipo; // depósito ou saque
+    private String tipo;
     private double valor;
 
     public void registrarMovimentacao() {

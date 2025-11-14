@@ -1,3 +1,5 @@
+package DesafioPratico;
+
 import java.util.Scanner;
 
 public class Conta {
@@ -13,7 +15,7 @@ public class Conta {
         System.out.print("Digite o saldo inicial: ");
         saldoInicial = Double.parseDouble(scanner.nextLine());
 
-        System.out.println("Conta cadastrada com sucesso!");
+        System.out.println("DesafioPratico.Conta cadastrada com sucesso!");
         System.out.println("Número: " + numero);
         System.out.println("Saldo inicial: " + saldoInicial);
     }
